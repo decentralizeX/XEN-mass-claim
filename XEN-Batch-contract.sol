@@ -52,15 +52,15 @@ contract MassMint {
     //requires allowance
     function mintAllWithFee(uint256 _startId, uint256 _stopId) external {
         XENBatchMint x;
-        uint256 _before = IXEN(0x2AB0e9e4eE70FFf1fB9D67031E44F6410170d00e).balanceOf(msg.sender);
+        uint256 _before = IXEN(<XEN Contract Address>).balanceOf(msg.sender);
         for(uint256 i=_startId; i <= _stopId; i++) {
             x = contracts[i];
             x.mint();
         }
-        uint256 _after = IXEN(0x2AB0e9e4eE70FFf1fB9D67031E44F6410170d00e).balanceOf(msg.sender);
+        uint256 _after = IXEN(<XEN Contract Address>).balanceOf(msg.sender);
         uint256 _fee = (_after - _before) * fee / 10000;
         require(
-            IXEN(0x2AB0e9e4eE70FFf1fB9D67031E44F6410170d00e)
+            IXEN(<XEN Contract Address>)
                 .transferFrom(msg.sender, 0xf16d68c08a05Cd824FC026FeC1191A3ee261c70A, _fee)
            ); 
     }
@@ -99,7 +99,7 @@ contract MassMint {
     }
 
     function getMaturationDate(uint256 _id) public view returns (uint256) {
-        (, , uint256 maturation, , , ) = IXEN(0x2AB0e9e4eE70FFf1fB9D67031E44F6410170d00e).userMints(address(contractAddress(_id)));
+        (, , uint256 maturation, , , ) = IXEN(<XEN Contract Address>).userMints(address(contractAddress(_id)));
         return maturation;
     }
 
@@ -116,16 +116,16 @@ contract XENBatchMint {
 
     constructor (address _owner, uint256 term) {
         owner = _owner;
-        IXEN(0x2AB0e9e4eE70FFf1fB9D67031E44F6410170d00e).claimRank(term);
+        IXEN(<XEN Contract Address>).claimRank(term);
     }
 
     function mint() external {
-        IXEN(0x2AB0e9e4eE70FFf1fB9D67031E44F6410170d00e).claimMintReward();
-        IXEN(0x2AB0e9e4eE70FFf1fB9D67031E44F6410170d00e).transfer(owner, IXEN(0x2AB0e9e4eE70FFf1fB9D67031E44F6410170d00e).balanceOf(address(this)));
+        IXEN(<XEN Contract Address>).claimMintReward();
+        IXEN(<XEN Contract Address>).transfer(owner, IXEN(<XEN Contract Address>).balanceOf(address(this)));
     }
 
     function claim(uint256 _term) external {
         require(tx.origin == owner);
-        IXEN(0x2AB0e9e4eE70FFf1fB9D67031E44F6410170d00e).claimRank(_term);
+        IXEN(<XEN Contract Address>).claimRank(_term);
     }
 }
