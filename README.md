@@ -6,6 +6,7 @@ Claim accross multiple accounts at once through a smart contract
 Use the tool from web at: https://decentralizeX.io/XEN-batch.php
 
 Contract Addresses
+
 Ethereum mainnet: https://etherscan.io/address/0x2927e1293209e0522baca63d2eabb865a252b3bb
 
 BSC: https://bscscan.com/address/0xb13501de5475447B700aB19738EB5BB2e9eAB733
