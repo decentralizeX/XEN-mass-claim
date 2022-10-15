@@ -1,6 +1,9 @@
 # XEN-mass-claim
 Batch Bulk Mass claim tool for XEN
 
+Warning: The tool has not been audited and should be checked prior usage
+There is in-built optional fee, but fee-free pass always exists in the contract
+
 Claim accross multiple accounts at once through a smart contract
 
 Use the tool from web at: https://decentralizeX.io/XEN-batch.php
