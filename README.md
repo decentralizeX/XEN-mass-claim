@@ -6,7 +6,7 @@ There is in-built optional fee, but fee-free pass always exists in the contract
 
 Claim accross multiple accounts at once through a smart contract
 
-Use the user-friendly tool from web at: https://decentralizeX.io/XEN-batch.php
+Use the user-friendly tool from web at:<br /> https://decentralizeX.io/XEN-batch.php
 <br />
 <br />
 <br />
