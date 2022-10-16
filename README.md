@@ -7,9 +7,10 @@ There is in-built optional fee, but fee-free pass always exists in the contract
 Claim accross multiple accounts at once through a smart contract
 
 Use the user-friendly tool from web at: https://decentralizeX.io/XEN-batch.php
-
-
-
+<br />
+<br />
+<br />
+<br />
 Contract Addresses
 
 Ethereum mainnet: https://etherscan.io/address/0x2927e1293209e0522baca63d2eabb865a252b3bb
