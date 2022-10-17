@@ -25,3 +25,8 @@ BSC: https://bscscan.com/address/0xb13501de5475447B700aB19738EB5BB2e9eAB733
 
 Polygon: https://polygonscan.com/address/0x2010B36B59F16303322454DfB146baAd3F470a98
 
+Avalanche C: https://snowtrace.io/address/0x68945a714fabd1cac7ab61e2a97a6e322fae854b
+
+ETHW: https://www.oklink.com/en/ethw/address/0x68945a714fabd1cac7ab61e2a97a6e322fae854b
+
+
