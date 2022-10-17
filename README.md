@@ -9,7 +9,7 @@ Claim accross multiple accounts at once through a smart contract
 Use the user-friendly tool from web at:<br /> https://decentralizeX.io/XEN-batch.php
 <br />
 <br />
-There is also an alternative tool, where you create wallets in-browser:<br />
+There is also an alternative tool, where you create wallets in-browser: ("skinned", open source version coming soon)<br />
 https://decentralizex.io/XEN.php
 <br />
 Youtube: https://www.youtube.com/watch?v=85aJHr1gTys
