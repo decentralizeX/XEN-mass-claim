@@ -18,10 +18,9 @@ Beautified: https://decentralizex.io/XEN.php</br>
 Youtube: https://www.youtube.com/watch?v=85aJHr1gTys
 <br />
 <br />
-<img src="https://i.imgur.com/VbEIYGJ.png">
+<img src="https://i.imgur.com/lzh6wqR.png">
                                           <br />
-                                          <img src="https://i.imgur.com/uwdS1AX.png">
-                                          </br>
+                       
 <img src="https://i.imgur.com/xzjR6Vx.png">                                    
 </br>
 <br />
