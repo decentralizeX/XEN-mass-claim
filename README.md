@@ -4,14 +4,17 @@ Batch Bulk Mass claim tool for XEN
 Warning: The tool has not been audited and should be checked prior usage
 There is in-built optional fee, but fee-free pass always exists in the contract
 
-Claim accross multiple accounts at once through a smart contract
+<strong>Option 1: </strong>Claim accross multiple accounts at once through a smart contract
 
 Use the user-friendly tool from web at:<br /> https://decentralizeX.io/XEN-batch.php
 <br />
 <br />
-There is also an alternative tool, where you create wallets in-browser: ("skinned", open source version coming soon)<br />
-https://decentralizex.io/XEN.php
-<br />
+<strong>Option 2: </strong></br>
+Tool that allows you to mass create wallets, claim, mint and transfer tokens. Create hundreds of wallets, mass fund them, mass claim, mass mint and mass transfer to a single address in a few clicks.</br> Wallets are generated off-chain(in your browser). 
+This can make it more efficient, but at the cost of a few extra steps
+
+Source: https://decentralizex.io/XEN-clean.html
+Beautified: https://decentralizex.io/XEN.php
 Youtube: https://www.youtube.com/watch?v=85aJHr1gTys
 <br />
 <br />
