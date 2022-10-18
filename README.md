@@ -20,7 +20,7 @@ Youtube: https://www.youtube.com/watch?v=85aJHr1gTys
 <br />
 <br />
 <br />
-Contract Addresses (Batc Mint Contract)
+Contract Addresses (Batch Mint Contract)
 
 Ethereum mainnet: https://etherscan.io/address/0x2927e1293209e0522baca63d2eabb865a252b3bb
 
