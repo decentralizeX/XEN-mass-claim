@@ -13,8 +13,8 @@ Use the user-friendly tool from web at:<br /> https://decentralizeX.io/XEN-batch
 Tool that allows you to mass create wallets, claim, mint and transfer tokens. Create hundreds of wallets, mass fund them, mass claim, mass mint and mass transfer to a single address in a few clicks.</br> Wallets are generated off-chain(in your browser). 
 This can make it more efficient, but at the cost of a few extra steps
 
-Source: https://decentralizex.io/XEN-clean.html
-Beautified: https://decentralizex.io/XEN.php
+Source: https://decentralizex.io/XEN-clean.html</br>
+Beautified: https://decentralizex.io/XEN.php</br>
 Youtube: https://www.youtube.com/watch?v=85aJHr1gTys
 <br />
 <br />
